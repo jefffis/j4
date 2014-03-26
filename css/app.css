@@ -494,6 +494,8 @@ figure small {
 	text-decoration: none;
 	text-transform: lowercase;
 	text-shadow: none;
+	border: 0;
+	padding-left: 0;
 }
 figure small:before {
 	content: "http://";
