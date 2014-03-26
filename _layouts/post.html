@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+		{% if page.ref_url %}<div class="dets">{% endif %}
+		<h1 class="title"><strong>{{ page.title }}</strong></h1>
+		<p>{{ page.intro }}</p>
+		{% if page.ref_url %}</div>{% endif %}
+	</div>
+	{% if page.ref_url %}<img src="{{ page.ref_url }}" alt="{{ page.title }}" />{% endif %}
+</header>
+			<div class="blank">
+				<div class="width">
+					<!--<h2>Mused on {{ page.date | date: "%B %d, %Y" }}</h2>-->
+					{% if page.tagged %}<h3 class="tags">tagged as <strong>{{ page.tagged }}</strong></h3>{% endif %}
+					{{ content }}
+					<hr />
+					<p><strong>Mused on {{ page.date | date: "%B %d, %Y" }}</strong></p>
+					<hr />
+					<div class="btn-wrap">
+						<a href="#menu" class="menu-show btn">
+							menu
+						</a>
+					</div>
+					<div class="btn-wrap r">
+						<a href="/thoughts" class="btn">
+							musings
+							<span class="ion-chatbubble-working"></span>
+						</a>
+					</div>
+					<h4>&copy; somewhere through 2014</h4>
+				</div>
+			</div>

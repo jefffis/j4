@@ -1,0 +1,43 @@
+---
+layout: default
+title: Thoughts &amp; whatnot
+---
+
+		<h1 class="title"><strong>Musings</strong></h1>
+		<p>A collection of my <strong>articles, thoughts, tests, mishmash, and more; enjoy.</strong></p>
+	</div>
+</header>
+	<div class="blank a">
+		<div class="articles width" role="main">
+		    {% for post in site.categories.thought %}
+		    <article>
+		      {% if post.external_link %}
+		      <h2><a href="{{ post.external_link }}">{{ post.title }}</a></h2>
+		      <h3>Mused on {{post.date | date: "%B %d, %Y"}}</h3>
+		      <p>{{ post.intro }}</p>
+		      {% else %}
+		      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		      <h3>Mused on {{post.date | date: "%B %d, %Y"}}</h3>
+		      <p>{{ post.intro }}</p>
+		      {% endif %}
+		    </article>
+		    {% endfor %}
+		</div>
+		<div class="blank no-top no-bot">
+			<div class="width">
+				<hr />
+				<div class="btn-wrap">
+					<a href="#menu" class="menu-show btn">
+						menu
+					</a>
+				</div>
+				<div class="btn-wrap r">
+					<a href="/" class="btn">
+						home
+						<span class="ion-home"></span>
+					</a>
+				</div>
+				<h4>&copy; somewhere through 2014</h4>
+			</div>
+		</div>
+	</div>

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en-us" class="no-js ">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title dir="ltr">Font-face Character Swapping by Jefff | Web Designer and Front-end Tinkerer. Music Snob. Father. Husband. Nerd.</title>
+    <meta name="description" content="The web sandbox of Jefff Doan; my work, my musings on web design, email design, and other web-related thingamajigs." />
+
+    <link rel="stylesheet" media="screen" href="/css/app.css">
+
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <script>
+      document.addEventListener("touchstart", function() {},false);
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-22790184-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' :'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+  </head>
+  <body>
+
+    <div id="slideable" class="slideable">
+
+      <header>
+        <div class="width">
+          <nav class="cf">
+            <h2>
+              <a href="/" title="made by Jefff"><span>made </span>by <strong>jefff</strong></a>
+            </h2>
+            <a href="#menu" class="menu-show btn">menu</a>
+          </nav>
+
+      		
+		<h1 class="title"><strong>Font-face Character Swapping</strong></h1>
+		<p>By using a few simple CSS tricks, we can replace any HTML character we want by targeting it&rsquo;s Unicode value.</p>
+		
+	</div>
+	
+</header>
+			<div class="blank">
+				<div class="width">
+					<!--<h2>Mused on June 14, 2013</h2>-->
+					
+					
+					<hr />
+					<p><strong>Mused on June 14, 2013</strong></p>
+					<hr />
+					<div class="btn-wrap">
+						<a href="#menu" class="menu-show btn">
+							menu
+						</a>
+					</div>
+					<div class="btn-wrap r">
+						<a href="/thoughts" class="btn">
+							musings
+							<span class="ion-chatbubble-working"></span>
+						</a>
+					</div>
+					<h4>&copy; somewhere through 2014</h4>
+				</div>
+			</div>
+
+      
+
+    </div>
+
+    <menu id="menu">
+      <div>
+        <div>
+          <span><a href="/">head home</a></span>
+          <span><a href="/work">view some work</a></span>
+          <span><a href="/thoughts">read some thoughts</a></span>
+          <span><a href="http://twitter.com/jefffis" target="_blank">jeff on twitter</a></span>
+          <span><a href="/resume">check my résumé</a></span>
+          <h4>&copy; 2014</h4>
+          <span class="close" id="close">hide <span class="ion-close-round"></span></span>
+        </div>
+      </div>
+    </menu>
+
+    <script src="/javascripts/app.js"></script>
+    <script>
+    var $ref = document.referrer;
+    var $_body = $('body');
+    if(($ref.indexOf('http://localhost:4000/'))||($ref.indexOf('http://jefff.co/'))){
+      $_body.addClass('hist').prepend('<div class="btn-wrap abs"><a onclick="history.back();" class="btn">Back to previous page</a></div>');
+    }
+    </script>
+    <script>if(document.body.scrollTop<1){(function(e){var d=e.document;if(!location.hash&&e.addEventListener){window.scrollTo(0,1);var c=1,b=function(){return e.pageYOffset||d.compatMode==="CSS1Compat"&&d.documentElement.scrollTop||d.body.scrollTop||0},a=setInterval(function(){if(d.body){clearInterval(a);c=b();e.scrollTo(0,c===1?0:1)}},15);e.addEventListener("load",function(){setTimeout(function(){if(b()<20){e.scrollTo(0,c===1?0:1)}},0)})}})(this);}</script>
+
+  </body>
+</html>

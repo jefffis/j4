@@ -1,0 +1,19 @@
+---
+layout: work
+title: tmcrnch
+image: /images/tmcrnch.jpg
+intro: <strong>Send a super short, simple email to up to 3 peeps letting them know you&rsquo;re going to be late.</strong> A PHP + Sendgrid app, I designed and built the UI &amp; front-end, and PHP + Sendgrid integration.
+categories: [work]
+css: tmcrnch
+exturl: http://tmcrnch.jefff.co/
+featured: true
+---
+
+###tech stuff
+##I did the design, front-end, PHP and sendgrid API integration
+
+I've often been stuck on the metro and wanted to send a super short, simple email to a few peeps letting them know I was stuck there, but without having to log into an app due to limited internet connection.
+
+So I'm testing using **localStorate to save up four email addresses (yours included) to remove the need for account creation** and then letting users choose one of three basic messages to fire off.
+
+**Lemme know what y'all think pls.**

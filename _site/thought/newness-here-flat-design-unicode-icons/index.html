@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en-us" class="no-js art w">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title dir="ltr">Jekyll, Flat Design & Unicode by Jefff | Web Designer and Front-end Tinkerer. Music Snob. Father. Husband. Nerd.</title>
+    <meta name="description" content="The web sandbox of Jefff Doan; my work, my musings on web design, email design, and other web-related thingamajigs." />
+
+    <link rel="stylesheet" media="screen" href="/css/app.css">
+
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <script>
+      document.addEventListener("touchstart", function() {},false);
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-22790184-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' :'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+  </head>
+  <body>
+
+    <div id="slideable" class="slideable">
+
+      <header>
+        <div class="width">
+          <nav class="cf">
+            <h2>
+              <a href="/" title="made by Jefff"><span>made </span>by <strong>jefff</strong></a>
+            </h2>
+            <a href="#menu" class="menu-show btn">menu</a>
+          </nav>
+
+      		
+		<h1 class="title"><strong>Jekyll, Flat Design & Unicode</strong></h1>
+		<p>I recently updated my site to use Jekyll, markdown, and Unicode icons. There are, of course, still some images, but only as necessary. Portfolio samples and 4 header images to give the site some character. However, I decided to dump a lot of tiny details in buttons and whatnot in favor of just focussing on content, and speed. The images I do use are pretty well optimized, but being that they are portfolio pieces, there's only so small I was willing to go.</p>
+		
+	</div>
+	
+</header>
+			<div class="blank">
+				<div class="width">
+					<!--<h2>Mused on February 19, 2013</h2>-->
+					<h3 class="tags">tagged as <strong>design</strong></h3>
+					<p>I recently updated my site to use Jekyll, markdown, and Unicode icons. There are, of course, still some images, but only as necessary. <strong>Portfolio samples and 4 header images to give the site some character.</strong> However, I decided to dump a lot of tiny details in buttons and whatnot in favor of just focussing on content, and speed. The images I do use are pretty well optimized, but being that they are portfolio pieces, there&#39;s only so small I was willing to go.</p>
+
+<h2>So What Changed?</h2>
+
+<p>I went with so called <strong>&#39;flat&#39;</strong> design to lessen the burden on CSS3 properties (hence to increase page load) and because I felt that I didn&#39;t have a true call-to-action. Since I don&#39;t have a CTA, I didn&#39;t really want any one link outweighing another. I tried to visually imply the different links: ones going to portfolio or blog posts (blue) and ones going to test samples and projects (in teal). </p>
+
+<p>I decide to move to Jekyll for a few reasons. One was because <strong>I wanted to learn it</strong>, and see why it was so popular (if its good enough for github, it&#39;s good enough for me). Another reason was to <strong>decrease page load</strong>; as it just generates a bunch of static HTML files. And lastly was to start <strong>using markdown everyday</strong> (which helps me focus on content and nothing else). I blogged last year about adding markdown to CMS&#39;, and I really feel this will get more popular in the near future: but that&#39;s neither here nor there.</p>
+
+<p>I also <strong>incorporated Unicode icons where I felt they made sense</strong>. For the link to the main nav (this is more of a gear/settings one, but I dug it), the actual nav, arrows to return back to the main work/blog page, arrows showing users leaving the main site, a return home arrow, a hammer &amp; pick for work, lightning bolt for work/thoughts internally, and an umbrella for my colophon. All are free, all are native, and all are stylable like text is. So, this means they are super easy to use, super flexible/scalable, and as you may have guessed, are super quick to load. </p>
+
+<p>So, whilst this may not be the sexiest site ever; <strong>I think it mixes simple, sleek design with large, touch-friendly content and performance</strong>. And, in my experience, a great combo of all three is the best UX. </p>
+
+					<hr />
+					<p><strong>Mused on February 19, 2013</strong></p>
+					<hr />
+					<div class="btn-wrap">
+						<a href="#menu" class="menu-show btn">
+							menu
+						</a>
+					</div>
+					<div class="btn-wrap r">
+						<a href="/thoughts" class="btn">
+							musings
+							<span class="ion-chatbubble-working"></span>
+						</a>
+					</div>
+					<h4>&copy; somewhere through 2014</h4>
+				</div>
+			</div>
+
+      
+
+    </div>
+
+    <menu id="menu">
+      <div>
+        <div>
+          <span><a href="/">head home</a></span>
+          <span><a href="/work">view some work</a></span>
+          <span><a href="/thoughts">read some thoughts</a></span>
+          <span><a href="http://twitter.com/jefffis" target="_blank">jeff on twitter</a></span>
+          <span><a href="/resume">check my résumé</a></span>
+          <h4>&copy; 2014</h4>
+          <span class="close" id="close">hide <span class="ion-close-round"></span></span>
+        </div>
+      </div>
+    </menu>
+
+    <script src="/javascripts/app.js"></script>
+    <script>
+    var $ref = document.referrer;
+    var $_body = $('body');
+    if(($ref.indexOf('http://localhost:4000/'))||($ref.indexOf('http://jefff.co/'))){
+      $_body.addClass('hist').prepend('<div class="btn-wrap abs"><a onclick="history.back();" class="btn">Back to previous page</a></div>');
+    }
+    </script>
+    <script>if(document.body.scrollTop<1){(function(e){var d=e.document;if(!location.hash&&e.addEventListener){window.scrollTo(0,1);var c=1,b=function(){return e.pageYOffset||d.compatMode==="CSS1Compat"&&d.documentElement.scrollTop||d.body.scrollTop||0},a=setInterval(function(){if(d.body){clearInterval(a);c=b();e.scrollTo(0,c===1?0:1)}},15);e.addEventListener("load",function(){setTimeout(function(){if(b()<20){e.scrollTo(0,c===1?0:1)}},0)})}})(this);}</script>
+
+  </body>
+</html>

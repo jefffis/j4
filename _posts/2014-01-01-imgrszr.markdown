@@ -1,0 +1,23 @@
+---
+layout: work
+title: imgrszr
+image: /images/imgrszr.png
+intro: <strong>A simple way for non-tech savvy folk to resize and optimize images for use on the web.</strong> A Ruby on Rails app, I designed and built the UI &amp; front-end, and did most of the Rails work.
+categories: [work]
+css: imgrszr
+exturl: http://resizio.herokuapp.com/
+featured: true
+---
+
+###tech stuff
+##I did the design, front-end, ruby on rails and heroku setup
+
+Have an image you want to use in a document, or on a website? But is it too big? Before you needed some sort of image editing software **and you needed to know what to do with it**. Not no more! Just upload, choose a max height or width and blammo.
+
+**Now supports CMYK to RGB conversion.** Or, I should, all images are converted to RGB for web support.
+
+###What I Did
+
+- designed and built app to **help our/any clients resize images easily**
+- I've noticed a lot of clients don't have access to photo editing software, so this is a simple stop-gap
+- uses simple, user focused design to guide users thru the process--**basically just 2  steps; load an image, choose a max size and voila**

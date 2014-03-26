@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en-us" class="no-js art w">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title dir="ltr">On Native App Splash Screens by Jefff | Web Designer and Front-end Tinkerer. Music Snob. Father. Husband. Nerd.</title>
+    <meta name="description" content="The web sandbox of Jefff Doan; my work, my musings on web design, email design, and other web-related thingamajigs." />
+
+    <link rel="stylesheet" media="screen" href="/css/app.css">
+
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <script>
+      document.addEventListener("touchstart", function() {},false);
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-22790184-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' :'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+  </head>
+  <body>
+
+    <div id="slideable" class="slideable">
+
+      <header>
+        <div class="width">
+          <nav class="cf">
+            <h2>
+              <a href="/" title="made by Jefff"><span>made </span>by <strong>jefff</strong></a>
+            </h2>
+            <a href="#menu" class="menu-show btn">menu</a>
+          </nav>
+
+      		
+		<h1 class="title"><strong>On Native App Splash Screens</strong></h1>
+		<p>Consider this&#58; splash screens pervade almost all native apps. And this is seen as a good thing. But splash screens in web apps&#59; a terrible, bad thing. <strong>Why do we allow one but not the other?</strong></p>
+		
+	</div>
+	
+</header>
+			<div class="blank">
+				<div class="width">
+					<!--<h2>Mused on March 20, 2014</h2>-->
+					<h3 class="tags">tagged as <strong>apps, UX, web vs. native</strong></h3>
+					<h2>Web vs Native: is there a difference?</h2>
+
+<p>Tech-savvy? If you&rsquo;re reading this, then I assume the answer is yes. Then, we know that there of course is a difference between the two; languages they are built in, the platform they are built on, the APIs that they can access, etc. So, yes, of course there is; most definitely. But, to 99% of people who use both of these types of apps, is there really a difference? Outside of how you get to one versus the other, not really.</p>
+
+<p>So why then are we allowing <strong>splash screens</strong> to return, and be accepted again?</p>
+
+<h2>Leave the past in the past</h2>
+
+<p>This is a relic of old web times, one that we, as a collective of designers and developers decided that provided a poor user experience. One that we fought tooth and nail against marketers who wanted to direct users to somewhere that the user did not intend to go. Clicking from a SERP to a websites homepage should take you to the homepage, not to a loading screen or splash screen. <strong>And we finally did beat this,</strong> for the most part at least.</p>
+
+<p>Native apps are reversing this trend*. And while for the most part they are just done as branding / loading screens, I don&#39;t understand why they A) exist, and B) why we stand for them.</p>
+
+<h2>Branding bitch!</h2>
+
+<p>Sure branding is important, and I don&#39;t doubt that. However, do we really need this splash screen for branding? Would you, as a user, really not know what app you are opening if you didn&#39;t see this? I find that hard to believe. Like web apps/sites, most native apps have their logo in the top left of the screen. We as technology users, know this, and get the concept for it. And if you don&#39;t know this, then <strong>a description-less splash screen isn&#39;t going to help</strong>.</p>
+
+<h2>Loading data</h2>
+
+<p>If this were the case, then perhaps I could see this. However, from all the testing I&#39;ve done, this is not the case. The splash screen loads, and then the app loads the necessary data after fading in the home view. So, basically this is not doing anything of importance to help speed up the app. <strong>And it&#39;s certainly not doing anything to improve perceived speed either.</strong></p>
+
+<h2>Some do get it right</h2>
+
+<p>Some apps are doing the right thing; Instagram for one. I can&#39;t recall if they always did this, or just in a recent release; but they did away with the splash and just go right to the home view while loading the data. This feels like the right way to do this, even if the loading still needs to be shown (of course it still has to happen), but this way the user is shown that something necessary is in the works.</p>
+
+<p><small>More and more, mobile safari (not sure about Android) allows a developer to add in more app-like features, and they do allow for web apps installed on a home screen to run splash screens as well.</small></p>
+
+					<hr />
+					<p><strong>Mused on March 20, 2014</strong></p>
+					<hr />
+					<div class="btn-wrap">
+						<a href="#menu" class="menu-show btn">
+							menu
+						</a>
+					</div>
+					<div class="btn-wrap r">
+						<a href="/thoughts" class="btn">
+							musings
+							<span class="ion-chatbubble-working"></span>
+						</a>
+					</div>
+					<h4>&copy; somewhere through 2014</h4>
+				</div>
+			</div>
+
+      
+
+    </div>
+
+    <menu id="menu">
+      <div>
+        <div>
+          <span><a href="/">head home</a></span>
+          <span><a href="/work">view some work</a></span>
+          <span><a href="/thoughts">read some thoughts</a></span>
+          <span><a href="http://twitter.com/jefffis" target="_blank">jeff on twitter</a></span>
+          <span><a href="/resume">check my résumé</a></span>
+          <h4>&copy; 2014</h4>
+          <span class="close" id="close">hide <span class="ion-close-round"></span></span>
+        </div>
+      </div>
+    </menu>
+
+    <script src="/javascripts/app.js"></script>
+    <script>
+    var $ref = document.referrer;
+    var $_body = $('body');
+    if(($ref.indexOf('http://localhost:4000/'))||($ref.indexOf('http://jefff.co/'))){
+      $_body.addClass('hist').prepend('<div class="btn-wrap abs"><a onclick="history.back();" class="btn">Back to previous page</a></div>');
+    }
+    </script>
+    <script>if(document.body.scrollTop<1){(function(e){var d=e.document;if(!location.hash&&e.addEventListener){window.scrollTo(0,1);var c=1,b=function(){return e.pageYOffset||d.compatMode==="CSS1Compat"&&d.documentElement.scrollTop||d.body.scrollTop||0},a=setInterval(function(){if(d.body){clearInterval(a);c=b();e.scrollTo(0,c===1?0:1)}},15);e.addEventListener("load",function(){setTimeout(function(){if(b()<20){e.scrollTo(0,c===1?0:1)}},0)})}})(this);}</script>
+
+  </body>
+</html>
