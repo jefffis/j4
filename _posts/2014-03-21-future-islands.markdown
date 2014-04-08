@@ -3,7 +3,7 @@ layout: post
 title: Future Islands
 categories: [thought]
 tagged: music, indie, hipster
-ref_url: http://media.npr.org/assets/img/2014/03/06/futureislands_wide-6d479aa56c23294fe0073a9da754f95c88b1f637-s40-c85.jpg
+ref_url: http://f.cl.ly/items/2Q1t2Q0z3R2s3H0J1x1J/futureislands.jpg
 css: art img
 ---
 
