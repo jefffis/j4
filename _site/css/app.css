@@ -515,6 +515,9 @@ figure img {
 	left: 0;
 	z-index: 1;
 }
+.lg .project {
+	position: static;
+}
 a:active .project {
 	bottom: 7px;
 }
@@ -944,5 +947,11 @@ article + hr {
 	}
 	.art .blank .width {
 		padding-left: 0;
+	}
+}
+@media screen and (min-width: 60em){
+	.lg {
+		width: 135%;
+		margin-left: -18.5%;
 	}
 }
