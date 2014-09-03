@@ -44,7 +44,7 @@ h4 {
 }
 
 a {
-	color: #3bcd92;
+	color: #15b5bf;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -112,7 +112,7 @@ pre span {
 	cursor: pointer;
 }
 .btn {
-	background: #249d6c;
+	background: #15b5bf;
 	display: inline-block;
 	text-decoration: none;
 	color: white;
@@ -130,7 +130,7 @@ pre span {
 	background: rgba(0,0,0,0.175);
 }
 .less .btn {
-	background: #3bcd92;
+	background: #15b5bf;
 }
 .btn span {
 	position: relative;
@@ -243,7 +243,7 @@ header hr {
 }
 .art .title:after {
 	content: ".";
-	color: #3bcd92;
+	color: #15b5bf;
 }
 .inner .title {
 	margin: 0 0 -1.5em;
@@ -263,7 +263,7 @@ header hr {
 	color: white;
 }
 .art .title strong {
-	color: #3bcd92;
+	color: #15b5bf;
 	letter-spacing: -1px;
 }
 .art header p {
@@ -424,7 +424,7 @@ menu.slide {
 	font-size: 1.25em;
 	width: 100%;
 	padding: .5em 1em;
-	background: #3bcd92;
+	background: #15b5bf;
 	text-shadow: 0 2px 0 rgba(0,0,0,0.15);
 	cursor: pointer;
 	box-shadow: 0 -3px 0 rgba(0,0,0,0.15);
@@ -459,7 +459,7 @@ menu span + h4 {
 	display: none;
 }
 menu a:hover {
-	color: #3bcd92;
+	color: #15b5bf;
 	background: rgba(0,0,0,0.75);
 }
 menu a:active {
@@ -481,6 +481,9 @@ figure, .cover, .project {
 	position: relative;
 	z-index: 1;
 }
+/*.project {
+	background: white url(/images/loading.gif) no-repeat center center;
+}*/
 figure small {
 	display: none;
 	position: absolute;
@@ -688,9 +691,12 @@ div.tourrin, .tourrin header, .tourrin .btn {
 	box-shadow: 0 0 0 4px rgba(0,0,0,0.25);
 }
 .playsomethin, .playsomethin header, .playsomethin .btn {
-	background: #0066bb;
+	background: #0a3961;
 }
-.playsomethin figure, .imgrszr figure {
+.playsomethin figure {
+	box-shadow: 0 0 0 4px rgba(0,0,0,0.15);
+}
+.imgrszr figure {
 	box-shadow: 0 0 0 4px rgba(255,255,255,0.15);
 }
 .contentboard header, .contentboard, .contentboard .btn {

@@ -1,6 +1,6 @@
 ---
 layout: work
-title: Listenin&rsquo;to
+title: Listenin&rsquo; to
 image: /images/listeninto.png
 intro: <strong>We all have our favorite bands, right? But who are our favorite bands&#58; favorite bands?</strong> Inspired by my passion for music, and the bands I love. I wanted to not only share those bands with others, but also get to know bands that inspire them, as well as bands they might be currently digging.
 categories: [work]

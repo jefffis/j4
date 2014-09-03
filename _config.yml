@@ -1,4 +1,4 @@
 name: made by Jefff
 markdown: redcarpet
-pygments: true
+highlighter: true
 permalink: /:categories/:title
