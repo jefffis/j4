@@ -1,7 +1,7 @@
 ---
 layout: work
 title: Littlelonce
-image: /images/littleones.png
+image: /images/littleonce.gif
 intro: <strong>A simple, secure, fun daily journaling app for your child.</strong> Just take a photo, add a description to preserve the memories forever, and post it; that&rsquo;s all. A Ruby on Rails app, I designed and built the UI &amp; front-end, and did a fair amount of the Rails work, with a bit o&rsquo; help from a friend.
 categories: [work]
 css: littleones

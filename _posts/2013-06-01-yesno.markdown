@@ -5,7 +5,7 @@ image: /images/yesno.gif
 intro: <strong>A simple app that allows users (without registering/logging in) to vote on yes or no questions.</strong> A Ruby on Rails app, I designed and built the UI &amp; front-end, and did all of the Rails work.
 categories: [work]
 css: yesno
-exturl: http://yesorno.es/
+exturl: http://yesno.jefff.co/
 featured: true
 ---
 

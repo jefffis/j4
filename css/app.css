@@ -170,7 +170,7 @@ pre span {
 
 /*** header ***/
 header {
-	background: #3bcd92;
+	background: #15b5bf;
 	padding: 3em 0 4em;
 	text-shadow: 0 2px 0 rgba(0,0,0,0.15);
 	position: relative;
@@ -678,11 +678,11 @@ article a:active {
 /*.work + .work {
 	margin-top: -3em;
 }*/
-.littleones, .littleones .btn {
-	background: #3bcd92;
+.littleones, .littleones .btn, .tourrin .littleones .btn {
+	background: #15b5bf;
 }
-.tourrin, .tourrin header, .tourrin .btn {
-	background: #333;
+div.tourrin, .tourrin header, .tourrin .btn {
+	background: #f04f23;
 }
 .tourrin figure {
 	box-shadow: 0 0 0 4px rgba(0,0,0,0.25);

@@ -5,7 +5,7 @@ image: /images/contentboard.jpg
 intro: <strong>A fun, simple way for non-tech savvy folk to create, edit and share content in preparation for the web.</strong> A Ruby on Rails app, I designed and built the UI &amp; front-end, and did all the heavy Rails work.
 categories: [work]
 css: contentboard
-exturl: http://contentboar.de/
+exturl: http://content.jefff.co/
 featured: true
 ---
 
